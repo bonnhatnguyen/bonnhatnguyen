@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FFA3"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="40%" stop-color="#58a6ff" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#00FFA3" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#30363d"/>
+    </linearGradient>
+    <radialGradient id="glowTopRight" cx="90%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#8a2be2" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottomLeft" cx="10%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#00FFA3" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="276" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="876" height="276" rx="14" fill="url(#glowTopRight)"/>
+  <rect x="2" y="2" width="876" height="276" rx="14" fill="url(#glowBottomLeft)"/>
+
+  <!-- Top Window Header Bar -->
+  <rect x="2" y="2" width="876" height="42" rx="14" fill="#161b22" fill-opacity="0.7"/>
+  <line x1="2" y1="44" x2="878" y2="44" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Window Dots -->
+  <circle cx="26" cy="23" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="23" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="23" r="6" fill="#27c93f"/>
+
+  <!-- Window Title -->
+  <text x="96" y="28" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500">bonnhatnguyen@solana-apex: ~ (zsh)</text>
+
+  <!-- Status Pill -->
+  <g transform="translate(685, 12)">
+    <rect width="168" height="22" rx="11" fill="#238636" fill-opacity="0.25" stroke="#2ea043" stroke-width="1"/>
+    <circle cx="14" cy="11" r="4" fill="#3fb950"/>
+    <text x="26" y="15" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="0.5">ACTIVE // SOLANA ARCH</text>
+  </g>
+
+  <!-- Shell Prompt & Identity -->
+  <text x="32" y="76" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600">$ whoami --architecture</text>
+  <text x="32" y="114" fill="url(#titleGrad)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="800" letter-spacing="1">BONNHATNGUYEN</text>
+  <text x="32" y="140" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14.5" font-weight="500">Systems &amp; Web3 Infrastructure Architect · Rust, Solana &amp; Autonomous Agents</text>
+  <text x="32" y="162" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-style="italic">Mechanical sympathy · Deterministic safety boundaries · Zero-overhead abstractions</text>
+
+  <!-- 4 HUD Benchmark Cards -->
+  <!-- Card 1: 1BRC -->
+  <g transform="translate(30, 185)">
+    <rect width="192" height="74" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="14" y="28" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">282M+ rows/s</text>
+    <text x="14" y="47" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="500">1BRC AVX2 SIMD</text>
+    <text x="14" y="63" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Rust · Branchless SWAR</text>
+  </g>
+
+  <!-- Card 2: Jito MEV -->
+  <g transform="translate(237, 185)">
+    <rect width="192" height="74" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="14" y="28" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">&lt; 100ms MEV</text>
+    <text x="14" y="47" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="500">Jito Bundle Routing</text>
+    <text x="14" y="63" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">>98% Landing Floor</text>
+  </g>
+
+  <!-- Card 3: MCP Agent -->
+  <g transform="translate(444, 185)">
+    <rect width="192" height="74" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="14" y="28" fill="#bc8cff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">Prod MCP Server</text>
+    <text x="14" y="47" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="500">Solana Model Context</text>
+    <text x="14" y="63" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Anthropic · Jupiter v6</text>
+  </g>
+
+  <!-- Card 4: Sentinel Security -->
+  <g transform="translate(651, 185)">
+    <rect width="198" height="74" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="14" y="28" fill="#f0883e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">0–100 SecScore</text>
+    <text x="14" y="47" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="500">Drainer &amp; Honeypot</text>
+    <text x="14" y="63" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">Batch Revoke · SPL-2022</text>
+  </g>
+</svg>
