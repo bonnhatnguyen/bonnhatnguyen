@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/bonnhatnguyen?tab=repositories">
-  <img src="https://raw.githubusercontent.com/bonnhatnguyen/bonnhatnguyen/main/assets/hero-landing.jpg" alt="bonnhatnguyen // Autonomous & Low-Latency Systems Architect" width="100%" />
+  <img src="https://raw.githubusercontent.com/bonnhatnguyen/bonnhatnguyen/main/assets/hero-animated.svg" alt="bonnhatnguyen // Systems & Web3 Infrastructure Architect" width="100%" />
 </a>
 
 <br/><br/>
@@ -37,79 +37,91 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🦀 <a href="https://github.com/bonnhatnguyen/1brc-rust-apex">1brc-rust-apex</a></h3>
-      <p><b>One Billion Row Challenge in Rust — 282M+ rows/sec</b></p>
-      <ul>
-        <li>Ultra-high-throughput telemetry aggregator processing 1 billion records in <b>3.54 seconds</b>.</li>
-        <li>Custom <b>AVX2 SIMD</b> vectorized newline scanner and branchless <b>SWAR</b> temperature parsing.</li>
-        <li>Memory-mapped I/O with cache-line aligned lock-free Robin Hood hash tables.</li>
-      </ul>
+      <a href="https://github.com/bonnhatnguyen/1brc-rust-apex">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=1brc-rust-apex&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=00FFA3&text_color=8b949e" width="100%" />
+      </a>
+      <br/>
+      <p><b>⚡ Verified Benchmark:</b> <code>282.4M rows/sec (3.54s / 1B rows)</code></p>
+      <p>▹ <b>SIMD Kernel:</b> Custom AVX2 vectorized newline scanner & branchless SWAR temperature parser.</p>
+      <p>▹ <b>Memory Architecture:</b> Memory-mapped I/O with cache-line aligned lock-free hash tables.</p>
       <p>
-        <code>Rust</code> · <code>AVX2 SIMD</code> · <code>Memory-Mapped I/O</code> · <code>Lock-Free</code>
+        <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=white" />
+        <img src="https://img.shields.io/badge/AVX2_SIMD-00FFA3?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/Lock--Free-58a6ff?style=flat-square&labelColor=0d1117&color=161b22" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/bonnhatnguyen/solana-jito-engine">solana-jito-engine</a></h3>
-      <p><b>Low-Latency Jito MEV Bundle Engine & Tip Optimizer</b></p>
-      <ul>
-        <li>Sub-100ms multi-engine bundle routing across global Jito block engine endpoints.</li>
-        <li>Dynamic tip floor percentile analysis ensuring <b>>98% bundle landing rate</b>.</li>
-        <li>Atomic multi-transaction bundling with sandwich and front-running protection.</li>
-      </ul>
+      <a href="https://github.com/bonnhatnguyen/solana-jito-engine">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=solana-jito-engine&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" width="100%" />
+      </a>
+      <br/>
+      <p><b>⚡ Verified Benchmark:</b> <code>Sub-100ms dispatch | >98% tip landing rate</code></p>
+      <p>▹ <b>Bundle Routing:</b> Multi-engine dispatch across global Jito block engine endpoints.</p>
+      <p>▹ <b>MEV Protection:</b> Atomic bundling with dynamic tip floor analysis and sandwich defense.</p>
       <p>
-        <code>TypeScript</code> · <code>Jito MEV</code> · <code>Solana Web3</code> · <code>DeFi</code>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/bonnhatnguyen/solana-agent-mcp">solana-agent-mcp</a></h3>
-      <p><b>Solana Model Context Protocol (MCP) Server</b></p>
-      <ul>
-        <li>Production Anthropic MCP server powering autonomous AI agents on Solana.</li>
-        <li>Deep integration with Jupiter v6 routing, SPL token inspections, and SNS.</li>
-        <li>Pre-flight simulation boundaries to prevent malicious wallet drains.</li>
-      </ul>
-      <p>
-        <code>TypeScript</code> · <code>MCP SDK</code> · <code>Solana Web3</code> · <code>Jupiter v6</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/bonnhatnguyen/solana-sentinel">solana-sentinel</a></h3>
-      <p><b>Solana Security Scanner & Drainer Detector CLI/SDK</b></p>
-      <ul>
-        <li>Deep SPL token & Token-2022 allowance scanner computing <b>0–100 Security Scores</b>.</li>
-        <li>Pre-flight transaction simulation engine detecting stealth drainers & honeypots.</li>
-        <li>Atomic 1-click batch revoke transaction builder with SNS (.sol) support.</li>
-      </ul>
-      <p>
-        <code>TypeScript</code> · <code>Solana Web3</code> · <code>SPL Token</code> · <code>Security Audit</code>
+        <img src="https://img.shields.io/badge/Solana-black?style=flat-square&logo=solana&logoColor=00FFA3" />
+        <img src="https://img.shields.io/badge/Jito_MEV-58a6ff?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/DeFi-bc8cff?style=flat-square&labelColor=0d1117&color=161b22" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>💼 <a href="https://github.com/bonnhatnguyen/mermail-skills">mermail-agent-skills</a></h3>
-      <p><b>Official Mermail Agent Skills (Payroll PR #408 & Bounty Closer PR #513)</b></p>
-      <ul>
-        <li>Contractor payroll agent with policy-gated PayBox proposal staging.</li>
-        <li>Post-submission bounty tracker with state machine and pinned wallet invariant.</li>
-        <li>BEC and address-poisoning defense ensuring human-in-the-loop signing.</li>
-      </ul>
+      <a href="https://github.com/bonnhatnguyen/solana-agent-mcp">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=solana-agent-mcp&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=bc8cff&text_color=8b949e" width="100%" />
+      </a>
+      <br/>
+      <p><b>⚡ Verified Benchmark:</b> <code>Production MCP v1.0 | Anthropic Claude Tooling</code></p>
+      <p>▹ <b>DEX Routing:</b> Ultra-low slippage Jupiter v6 swaps with pre-flight state simulation.</p>
+      <p>▹ <b>Safety Invariant:</b> Policy execution boundaries preventing malicious wallet drains.</p>
       <p>
-        <code>Agent Skills</code> · <code>Solana PayBox</code> · <code>Security Invariants</code> · <code>USDC</code>
+        <img src="https://img.shields.io/badge/MCP-bc8cff?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/Jupiter_v6-FFA500?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/AI_Agents-00FFA3?style=flat-square&labelColor=0d1117&color=161b22" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/bonnhatnguyen/dola-render-gateway">dola-render-gateway</a></h3>
-      <p><b>AI Video Generation & Headless Render Gateway</b></p>
-      <ul>
-        <li>Production gateway for Seedance 2.5/2.0 with unwatermarked asset extraction.</li>
-        <li>Automated browser pool orchestration with resilient queue workers.</li>
-        <li>Webhook callbacks and real-time generation state dispatch.</li>
-      </ul>
+      <a href="https://github.com/bonnhatnguyen/solana-sentinel">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=solana-sentinel&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=f0883e&text_color=8b949e" width="100%" />
+      </a>
+      <br/>
+      <p><b>⚡ Verified Benchmark:</b> <code>0–100 Security Score | 1-Click Atomic Batch Revoke</code></p>
+      <p>▹ <b>Token Scanning:</b> Deep SPL & Token-2022 unlimited allowance and delegation auditor.</p>
+      <p>▹ <b>Drainer Defense:</b> Pre-flight transaction simulation detecting stealth traps & honeypots.</p>
       <p>
-        <code>Node.js</code> · <code>Puppeteer Pool</code> · <code>Video AI</code> · <code>Queues</code>
+        <img src="https://img.shields.io/badge/Security_Audit-f0883e?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/SPL_2022-58a6ff?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/Drainer_Guard-00FFA3?style=flat-square&labelColor=0d1117&color=161b22" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/bonnhatnguyen/mermail-skills">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=mermail-skills&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=ff7b72&text_color=8b949e" width="100%" />
+      </a>
+      <br/>
+      <p><b>⚡ Verified Benchmark:</b> <code>Official Mermail Skills (PR #408 & PR #513)</code></p>
+      <p>▹ <b>Contractor Payroll:</b> Policy-gated Solana PayBox proposal staging with allowlists.</p>
+      <p>▹ <b>Bounty Closer:</b> State machine lifecycle with human-in-the-loop signing invariant.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Mermail_Skills-ff7b72?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/PayBox_USDC-00FFA3?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/Verified_PR-58a6ff?style=flat-square&labelColor=0d1117&color=161b22" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/bonnhatnguyen/dola-render-gateway">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=dola-render-gateway&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=d29922&text_color=8b949e" width="100%" />
+      </a>
+      <br/>
+      <p><b>⚡ Verified Benchmark:</b> <code>Production Headless Gateway | 54 Stars</code></p>
+      <p>▹ <b>Browser Pool:</b> Automated Puppeteer cluster with resilient queue workers.</p>
+      <p>▹ <b>Asset Extraction:</b> Seedance 2.5/2.0 with unwatermarked media extraction pipeline.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-black?style=flat-square&logo=node.js&logoColor=green" />
+        <img src="https://img.shields.io/badge/Puppeteer_Pool-d29922?style=flat-square&labelColor=0d1117&color=161b22" />
+        <img src="https://img.shields.io/badge/Video_AI-bc8cff?style=flat-square&labelColor=0d1117&color=161b22" />
       </p>
     </td>
   </tr>
@@ -117,27 +129,90 @@
 
 ---
 
-## 🛠️ Technical Surface
+## 🛠️ Technical Surface & Systems Radar
 
-- **Systems & Low-Latency**: `Rust`, `AVX2 / SIMD Intrinsics`, `Memory-Mapped I/O`, `Lock-Free Concurrency`, `Branchless SWAR`, `Linux Kernel Tuning`, `C++`
-- **Solana & Web3**: `Solana Runtime`, `Anchor Framework`, `Jito MEV Bundles`, `Jupiter v6 DEX API`, `SPL & Token-2022`, `@solana/web3.js`
-- **Autonomous Agents & Protocols**: `Model Context Protocol (MCP)`, `Agent Skills Specification`, `Deterministic Prompt Policies`, `Sandboxed Tool Execution`
-- **Infrastructure & Runtimes**: `TypeScript / Node.js`, `Python / FastAPI`, `Docker`, `Distributed Worker Pools`, `GitHub Actions CI/CD`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚡ Low-Latency & Systems Architecture</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+      </p>
+      <ul>
+        <li><b>AVX2 / SIMD Intrinsics:</b> 32-byte vectorized vector lane compute.</li>
+        <li><b>Memory Architecture:</b> Memory-mapped I/O, cache-line alignment, hugepages.</li>
+        <li><b>Concurrency:</b> Lock-free atomics, SWAR branchless parsing, thread arenas.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌐 Solana & High-Frequency Web3</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" />
+        <img src="https://img.shields.io/badge/Anchor-2C2D30?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Jito_MEV-00FFA3?style=for-the-badge&labelColor=000000" />
+      </p>
+      <ul>
+        <li><b>MEV & Execution:</b> Jito block engine bundle routing, dynamic tip floor.</li>
+        <li><b>DEX Protocols:</b> Jupiter v6 swap routing, SPL Token & Token-2022 extensions.</li>
+        <li><b>Web3 Runtimes:</b> @solana/web3.js, atomic transaction bundling & simulation.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🤖 Autonomous AI & Agent Protocols</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Model_Context_Protocol-8A2BE2?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+      </p>
+      <ul>
+        <li><b>Protocol Architecture:</b> Production MCP server implementation & tool calling.</li>
+        <li><b>Deterministic Safety:</b> Hardened prompt policies, sandboxed tool interpreters.</li>
+        <li><b>Workflow Automation:</b> State machine lifecycle & human-in-the-loop signing.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏗️ Infrastructure, Runtimes & Tooling</h4>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+      </p>
+      <ul>
+        <li><b>Distributed Systems:</b> Headless Puppeteer pools, Redis queues, Webhooks.</li>
+        <li><b>Backend Engines:</b> Node.js, Python, asynchronous event dispatch.</li>
+        <li><b>DevOps & Quality:</b> GitHub Actions CI/CD, hermetic test suites, Git flows.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📬 Direct Channel
+## 📬 Direct Channel & Security Disclosure
 
-<div align="center">
-
-<p>Open for high-performance systems engineering, Solana DeFi infrastructure, and autonomous agent protocol architecture.</p>
-
-<a href="mailto:bonnhatnguyen0@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-bonnhatnguyen0%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=00FFA3&labelColor=161b22" alt="Direct Email Contact" />
-</a>
-
-<br/><br/>
-
-`bonnhatnguyen` · Vietnam (UTC+7)
-
-</div>
+<table>
+  <tr>
+    <td width="70%" valign="top">
+      <h3>🔐 Verified Engineering Communication</h3>
+      <p>Open for low-latency systems architecture, Solana DeFi protocol engineering, and autonomous agent infrastructure.</p>
+      <p>
+        <a href="mailto:bonnhatnguyen0@gmail.com">
+          <img src="https://img.shields.io/badge/DIRECT_EMAIL-bonnhatnguyen0%40gmail.com-00FFA3?style=for-the-badge&logo=gmail&logoColor=0d1117&labelColor=161b22" alt="Direct Email" />
+        </a>
+        &nbsp;&nbsp;
+        <a href="https://github.com/bonnhatnguyen">
+          <img src="https://img.shields.io/badge/GITHUB-bonnhatnguyen-58a6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22" alt="GitHub Profile" />
+        </a>
+      </p>
+    </td>
+    <td width="30%" valign="top">
+      <h4>📍 Operations Base</h4>
+      <p><b>Handle:</b> <code>@bonnhatnguyen</code></p>
+      <p><b>Timezone:</b> <code>UTC+7 (Vietnam)</code></p>
+      <p><b>Status:</b> <code>🟢 ACTIVE</code></p>
+    </td>
+  </tr>
+</table>
