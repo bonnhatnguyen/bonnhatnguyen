@@ -101,9 +101,9 @@
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=bonnhatnguyen&repo=mermail-skills&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=ff7b72&text_color=8b949e" width="100%" />
       </a>
       <br/>
-      <p><b>⚡ Verified Benchmark:</b> <code>Official Mermail Skills (PR #408 & PR #513)</code></p>
+      <p><b>⚡ Verified Benchmark:</b> <code>Official Mermail Skills (PR #408, #513 & #514)</code></p>
       <p>▹ <b>Contractor Payroll:</b> Policy-gated Solana PayBox proposal staging with allowlists.</p>
-      <p>▹ <b>Bounty Closer:</b> State machine lifecycle with human-in-the-loop signing invariant.</p>
+      <p>▹ <b>Bounty & RFQ Desks:</b> Post-submission lifecycle (PR #513) & vendor quotation RFQ desk (PR #514).</p>
       <p>
         <img src="https://img.shields.io/badge/Mermail_Skills-ff7b72?style=flat-square&labelColor=0d1117&color=161b22" />
         <img src="https://img.shields.io/badge/PayBox_USDC-00FFA3?style=flat-square&labelColor=0d1117&color=161b22" />
